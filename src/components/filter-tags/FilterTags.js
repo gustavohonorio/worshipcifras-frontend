@@ -4,8 +4,8 @@ import Tags from "./Tags";
 const styles = {
     FilterTags: {
         display: "flex",
-        marginLeft: "25px",
-        marginTop: "10px",
+        marginLeft: "15px",
+        marginTop: "15px",
     },
 };
 
