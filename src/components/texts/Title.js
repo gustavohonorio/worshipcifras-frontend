@@ -5,21 +5,17 @@ const styles = {
     color: '#ffffff',
     fontSize: '24px',
     fontWeight: '500',
-    lineHeight: '28px',
+    lineHeight: '22px',
   },
-  Subtitle: {
-    color: '#7f7f7f',
-    fontSize: '14px',
-    lineHeight: '16px',
+  Div: {
+    marginTop: '30px',
+    marginLeft: '15px',
   },
 };
 
-const TitlePlus  = ({Title, Subtitle }) => {
+const TitlePlus  = ({ Title }) => {
   return (
-    <div>
-        <div style={styles.Subtitle}>
-          {Subtitle}
-        </div>
+    <div style={styles.Div}>
         <div style={styles.Title}>
           {Title}
         </div>
